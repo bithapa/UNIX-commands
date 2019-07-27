@@ -56,4 +56,5 @@ push, pull, & branch
 ## Sync with remote changes:
 
 `git pull`
+
 [a weird screen will appear: `i` to insert message / press `esc` / press `:wq` to exit]
