@@ -52,3 +52,8 @@ push, pull, & branch
 ## Remove a file FILE.file:
 
 `git rm FILE.file`
+
+## Sync with remote changes:
+
+`git pull`
+[a weird screen will appear: `i` to insert message / press `esc` / press `:wq` to exit]
