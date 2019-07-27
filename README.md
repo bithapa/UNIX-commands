@@ -1,4 +1,4 @@
-# [push-pull-merge] (https://education.github.com/git-cheat-sheet-education.pdf)
+# [push-pull-merge](https://education.github.com/git-cheat-sheet-education.pdf)
 push, pull, & branch
 
 ## See the Status:
