@@ -1,5 +1,6 @@
 # [push-pull-merge](https://education.github.com/git-cheat-sheet-education.pdf)
-push, pull, & branch
+
+# GitHub Terminal Commands:
 
 To Do This | Execute This
 ---------------------------------------------|-------------------------------------------------------------------------------
@@ -21,7 +22,7 @@ Sync with remote changes                     | `git pull` [`i` to insert message
 
 ---
 
-# Terminal Commands:
+# General Terminal Commands:
 
 To Do This | Execute This
 ------------------|--------------------------------------
