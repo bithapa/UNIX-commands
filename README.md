@@ -1,7 +1,6 @@
 # [push-pull-merge](https://education.github.com/git-cheat-sheet-education.pdf)
 push, pull, & branch
 
----------------------------------------------|-------------------------------------------------------------------------------
 See the Status                               | `git status`
 ---------------------------------------------|-------------------------------------------------------------------------------
 Add a file FILE.file                         | `git add FILE.file`
@@ -28,7 +27,7 @@ View the history of current branch           | `git log`
 ---------------------------------------------|-------------------------------------------------------------------------------
 Remove a file FILE.file                      | `git rm FILE.file`
 ---------------------------------------------|-------------------------------------------------------------------------------
-Sync with remote changes                     | `git pull` [a weird screen will appear: `i` to insert message / press `esc` / press `:wq` to exit]
+Sync with remote changes                     | `git pull` [`i` to insert message / `esc` to escape / `:wq` to exit]
 ---------------------------------------------|-------------------------------------------------------------------------------
 
 ---
