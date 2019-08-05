@@ -1,63 +1,55 @@
 # [push-pull-merge](https://education.github.com/git-cheat-sheet-education.pdf)
 push, pull, & branch
 
-## See the Status:
+See the Status                     | `git status`
+-----------------------------------|--------------------------------------
+Add a file FILE.file:              | `git add FILE.file`
+-----------------------------------|--------------------------------------
+Commit                             | `git commit -m "commit message - xyz changes made"`
+-----------------------------------|--------------------------------------
+Crate a new branch `feature-x`     | `git branch feature-x`
+-----------------------------------|--------------------------------------
+Create new branch `feature-x` & switch to it | `git checkout -b feature-x`
+-----------------------------------|--------------------------------------
+Switch back to `master` | `git checkout master`
+-----------------------------------|--------------------------------------
+Switch back to `feature-x` | `git checkout feature-x`
+-----------------------------------|--------------------------------------
+See all of your branches | `git branch` [* will appear next to your current branch]
+-----------------------------------|--------------------------------------
+Delete the branch `feature x` | `git branch -d feature-x`
+-----------------------------------|--------------------------------------
+Push the changes to the branch 'feature-x' | `git push origin feature-x`
+-----------------------------------|--------------------------------------
+Push the changes to `master` | `git push origin master`
+-----------------------------------|--------------------------------------
+View the history of current branch | `git log`
+-----------------------------------|--------------------------------------
+Remove a file FILE.file | `git rm FILE.file`
+-----------------------------------|--------------------------------------
+Sync with remote changes | `git pull` [a weird screen will appear: `i` to insert message / press `esc` / press `:wq` to exit]
+-----------------------------------|--------------------------------------
+##
 
-`git status`
 
-## Add a file FILE.file:
 
-`git add FILE.file`
+##
 
-## Commit:
 
-`git commit -m "commit message - xyz changes made"`
 
-## Crate a new branch `feature-x`
+##
 
-`git branch feature-x`
 
-## Create new branch `feature-x` & switch to it:
 
-`git checkout -b feature-x`
+##
 
-## Switch back to `master`:
 
-`git checkout master`
 
-## Switch back to `feature-x`:
+##
 
-`git checkout feature-x`
 
-## See all of your branches:
 
-`git branch` [* will appear next to your current branch]
 
-## Delete the branch `feature x`:
-
-`git branch -d feature-x`
-
-## Push the changes to the branch 'feature-x':
-
-`git push origin feature-x`
-
-## Push the changes to `master`:
-
-`git push origin master`
-
-## View the history of current branch:
-
-`git log`
-
-## Remove a file FILE.file:
-
-`git rm FILE.file`
-
-## Sync with remote changes:
-
-`git pull`
-
-[a weird screen will appear: `i` to insert message / press `esc` / press `:wq` to exit]
 
 ---
 
@@ -65,4 +57,5 @@ push, pull, & branch
 
 `cat <file_name>` | opens the preview of file in terminal
 ------------------|--------------------------------------
+
 ---
