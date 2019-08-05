@@ -1,9 +1,9 @@
 # [push-pull-merge](https://education.github.com/git-cheat-sheet-education.pdf)
 push, pull, & branch
 
-To | execute
+To Do This | Execute This
 ---------------------------------------------|-------------------------------------------------------------------------------
-See the Status                               | `git status`
+**See the Status**                               | `git status`
 Add a file FILE.file                         | `git add FILE.file`
 Commit                                       | `git commit -m "commit message - xyz changes made"`
 Crate a new branch `feature-x`               | `git branch feature-x`
@@ -23,9 +23,9 @@ Sync with remote changes                     | `git pull` [`i` to insert message
 
 # Terminal Commands:
 
-To | execute
+To Do This | Execute This
 ------------------|--------------------------------------
-open the preview of a file in terminal | `cat <file_name>`
+**open the preview of a file in terminal** | `cat <file_name>`
 
 
 ---
