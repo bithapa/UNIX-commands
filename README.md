@@ -58,3 +58,11 @@ push, pull, & branch
 `git pull`
 
 [a weird screen will appear: `i` to insert message / press `esc` / press `:wq` to exit]
+
+---
+
+# Terminal Commands:
+
+`cat <file_name>` | opens the preview of file in terminal
+------------------|--------------------------------------
+---
