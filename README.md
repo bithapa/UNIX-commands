@@ -3,7 +3,7 @@ push, pull, & branch
 
 To | execute
 ---------------------------------------------|-------------------------------------------------------------------------------
-## See the Status                               | `git status`
+See the Status                               | `git status`
 Add a file FILE.file                         | `git add FILE.file`
 Commit                                       | `git commit -m "commit message - xyz changes made"`
 Crate a new branch `feature-x`               | `git branch feature-x`
@@ -23,7 +23,9 @@ Sync with remote changes                     | `git pull` [`i` to insert message
 
 # Terminal Commands:
 
-`cat <file_name>` | opens the preview of file in terminal
+To | execute
 ------------------|--------------------------------------
+open the preview of a file in terminal | `cat <file_name>`
+
 
 ---
