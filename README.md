@@ -23,9 +23,9 @@ Sync with remote changes                     | `git pull` [`i` to insert message
 
 ---
 
-# General Terminal Commands:
+## General Terminal Commands:
 
-To Do This | Execute This
+To Do | Execute This
 ------------------|--------------------------------------
 open the preview of a file in terminal | `cat <file_name>`
 
