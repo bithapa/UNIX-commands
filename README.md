@@ -20,11 +20,7 @@ View the history of current branch           | `git log`
 Remove a file FILE.file                      | `git rm FILE.file`
 Sync with remote changes                     | `git pull` [`i` to insert message / `esc` to escape / `:wq` to exit]
 
-
 ---
-
-## THIS IS THE EDIT OF `branch2`
-
 
 # General Terminal Commands:
 
