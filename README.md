@@ -23,7 +23,8 @@ Sync with remote changes                     | `git pull` [`i` to insert message
 ---
 
 # Creating Pull Request:
-Follow the following steps to create pull requests to merge your changes:
+- Follow the following steps to create pull requests to merge your changes:
+
     - Select the branch on GitHub repo for which you want to create the request,
     - Select `New Pull Request` to the right of the branch menu,
     - Use the `base` menu to choose the branch to which you want to merge your changes and the `compare` menu to compare the changes,
