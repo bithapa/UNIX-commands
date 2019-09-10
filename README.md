@@ -22,11 +22,16 @@ Sync with remote changes                     | `git pull` [`i` to insert message
 
 ---
 
+# Creating Pull Request:
+
+---
 # General Terminal Commands:
 
 To Do This | Execute This
 ------------------|--------------------------------------
 open the preview of a file in terminal | `cat <file_name>`
 
+
+# github test
 
 ---
