@@ -40,3 +40,94 @@ To Do This | Execute This
 open the preview of a file in terminal | `cat <file_name>`
 
 ---
+
+
+```
+unix commands:
+
+rm			removes  file
+rmdir			removes a directory
+mkdir			make a directory
+cp file1 file2		make copy of file1 named copy2
+cp * backup		copy all files into backup dir
+cp *.cc backup		copy all .cc files into backup dir
+rm -f filename		forcibly remove file
+rm -R			remove recursively
+rm -fR ~		remove everything recursively
+rm *.ps			printable?
+
+ln source target	[linking shortcut]
+ln -s A A_		create symbolic link of the dir A named A_
+file hello		reads the file and tells what's in the file
+
+mv a.out hello		moves file a.out to hello
+ls -l			long listing [details]
+			owner group file-size-in-bytes date-modified
+ls -lt			long listing with shorted on time
+
+	-rwx r-x r-x r-x
+	-rwx:		owener's permission
+	r-x(first):	group's permission
+	r-x(second):	other's permission	
+	0 ---		denied
+	1 --x		can execute
+	2 -w-		can write
+	3 -wx		read and execute
+	4 r--		read only
+	5 r-x		
+	6 rw-
+	7 rwx
+
+chmod			change the mode of access
+chmod 757 hello
+chmod 700
+chmod 744 filename	executable permission
+chmod o+w hello		add write permission to group others
+chmod og-wx hello
+
+dirs 			prints working directory's name
+ls *.cc
+
+cat hello.cc		opens hello.cc in terminal
+more hello.cc		displays hello.cc %wise[hit 'space' to reach the end]
+less hello.cc		display hello.cc line wise/hit escape twice and `wq` to exit
+
+date			displays the date
+dirs			ahows the current folder
+pwd 			print working directory
+
+SHELL:
+	Bourne Shell (by Steve Bourne AT&T) 
+	sh
+	ksh
+	csh	(c shell/developed at UC Berkely)
+	c like syntax
+	tcsh
+	bash	(born again)
+
+
+ls foo<tab>		completes the command
+!vi			opens the last opened fileclear
+
+
+rm -f $new $old		add at the end of watchforwa
+watchfor &		run in the background
+
+$$
+$0			program name
+$1, ..			arguments
+$#
+$*
+
+int main(int argc, char* argv[])
+
+"""
+watchfor: shows the users log in/ log 
+for_demo: prints out the commandline arguments
+###
+
+watchfor &		run in the backgorund
+
+
+
+```
