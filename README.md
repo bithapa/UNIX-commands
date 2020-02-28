@@ -131,3 +131,48 @@ watchfor &		run in the backgorund
 
 
 ```
+
+
+
+```
+	// highlow.sh
+
+	#!/bin/bash
+	echo This is a High Low Program\!
+
+	# echo $[(RANDOM % MAX_NUMBER) + 1]
+	SECRET=$RANDOM
+	echo Secret - $SECRET
+
+	echo Choose a number\:
+
+	read num
+
+	echo $num
+
+	#	if number > Random
+	#		echo my num less than your num
+	#	else if number is < random
+	#		echo my num is greater than your num
+
+	while [$num != $Secret]
+	do
+		if [ $num > $Secret ]
+		then
+			echo My number is \less than $num\!
+		fi
+
+		if [ $num < $Secret ]
+		then 		
+			echo My number is \grater than $num\!
+		fi
+
+		if [ $num == $Secret ]
+		then 		
+			echo Great\! That\'s my number\!
+		fi
+
+		echo Choose another number\:
+		read num
+	done
+```
