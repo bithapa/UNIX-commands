@@ -41,7 +41,7 @@ int main () {
 			for ( int j=0; j < sizeof(encoded_data[i].message); j++) {
 				if ( encoded_data[i].message[j] == (char)0)
 					break;
-				cout << (char)(encoded_data[i].message[j]-encoded_data[i].key-j);
+				cout << (char)(encoded_data[i].message[j] - key - j);
 			}
 			cout << endl << endl;
 		}
